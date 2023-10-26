@@ -42,3 +42,12 @@ section {
   margin: 0 0 0 2%;
   grid-template-columns: auto auto auto auto;
 }
+
+@media screen and(max-width: 448) {
+  section {
+    display: grid;
+
+    margin: 0 0 0 2%;
+    grid-template-columns: auto;
+  }
+}
