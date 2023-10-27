@@ -37,7 +37,6 @@ function EditUser({ setEdit, id }) {
       <form
         className="col col-sm-12 col-lg-6"
         style={{
-          width: "50%",
           margin: "0  auto 10px",
           border: "1px solid black",
           padding: "15px",
