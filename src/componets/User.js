@@ -15,7 +15,7 @@ function User({ email, id, name, isEdit, setId }) {
   };
 
   return (
-    <div className="card" style={{ width: "17rem", margin: "2px" }}>
+    <div className="card col-sm-12 col-lg-4" style={{ margin: "2px" }}>
       <div className="card-body">
         <h5 className="card-title">ID: {id}</h5>
         <p className="card-text">Name: {name}</p>

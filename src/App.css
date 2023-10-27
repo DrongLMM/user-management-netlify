@@ -37,8 +37,4 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .row {
-    margin: 0 25%;
-  }
-}
+

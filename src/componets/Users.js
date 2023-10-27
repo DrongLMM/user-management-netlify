@@ -7,7 +7,7 @@ function Users({ isEdit, setId }) {
   const { state } = useUserContext();
   return (
     <div className="container ">
-      <div className="row">
+      <div className="row" style={{justifyContent: "center"}}>
         {state.users.map((user) => {
           return (
             <User
